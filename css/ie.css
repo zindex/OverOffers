@@ -1,0 +1,41 @@
+.main-nav li {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6bd00', endColorstr='#89a100',GradientType=0 );}
+.main-nav li .hover-mask {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8d200', endColorstr='#9aba00',GradientType=0 );}
+.list_carousel {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#dddddd',GradientType=0 );}
+.partners-list .num {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#58d5f5', endColorstr='#39b1ec',GradientType=0 );}
+.i-news-list__item:hover {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faffef', endColorstr='#efffc6',GradientType=0 );}
+.news-list__date {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4b4b4', endColorstr='#757575',GradientType=0 );}
+.i-news-list__item:hover .news-list__date {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bed700', endColorstr='#87b600',GradientType=0 );}
+.popup-modal .modal-header {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#e4e4e4',GradientType=0 );}
+.cnt-head {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#e0e0e0',GradientType=0 );}
+.nav-periods__link:hover,
+.nav-periods__link.hover,
+.nav-periods .active .nav-periods__link,
+.nav-periods .active .nav-periods__link:hover,
+.nav-periods > .active > .nav-periods__link {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#f3f3f3',GradientType=0 );}
+.nav-periods__link {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#f3f3f3',GradientType=0 );}
+.btn-success-light {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6bd58', endColorstr='#779808',GradientType=0 );}
+.btn-success-light:hover,
+.btn-success-light:focus,
+.btn-success-light:active,
+.btn-success-light.active,
+.btn-success-light.disabled,
+.btn-success-light[disabled] {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3d834', endColorstr='#87ac08',GradientType=0 );}
+.btn-success-light:active,
+.btn-success-light.active {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afafaf', endColorstr='#828282',GradientType=0 );}
+.select2-container .select2-choice {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eaeaea',GradientType=0 );}
+.sort-options > .active > a,
+.sort-options > .active > a:hover,
+.sort-options > .active > a:focus,
+.sort-options a:hover {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#f3f3f3',GradientType=0 );}
+.pagination-custom ul > li > a,
+.pagination-custom ul > li > span {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );}
+.pagination-custom ul > .active > a,
+.pagination-custom ul > .active > span,
+.pagination-custom ul a:hover {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#f3f3f3',GradientType=0 );}
+.payments-form {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#dfdfdf',GradientType=0 );}
+.date-value {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd200', endColorstr='#89ac00',GradientType=0 );}
+body {min-width:940px;}
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 1170px;
+}
+.form-box input[type="text"], .form-box input[type="password"] {padding:15px 26px 5px 16px;}

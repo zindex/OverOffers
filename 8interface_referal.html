@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>OverOffers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+
+    <link href="css/select2.css" rel="stylesheet" media="screen">
+    <link href="css/datepicker.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <!--[if lt IE 9]><link rel="stylesheet" href="css/ie.css"><![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="navbar-frame"><a class="brand" href="#">overoffers</a><a class="view-more" href="#"></a></div>
+            <a data-target=".account-collapse" data-toggle="collapse" class="btn btn-navbar pull-right btn-account">
+                <span class="ico ico-account"></span>
+            </a>
+            <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar pull-right">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <nav class="nav-collapse collapse">
+                <ul class="nav main-nav">
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-start"></i><span>Стартовая</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-offers"></i><span>Офферы</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-stats"></i><span>Статистика</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-mylinks"></i><span>Мои ссылки</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-referals"></i><span>Рефералы</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-finance"></i><span>Финансы</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-tickets"></i><span>Тикеты</span></a><em class="hover-mask"></em></li>
+                </ul>
+            </nav>
+            <nav class="account-collapse collapse pull-right">
+                <a class="btn-top" href="#">Наверх</a>
+                <ul class="nav  account">
+                    <li class="account__item">
+                        <a class="account__link account__link_incoming" href="#"><span id="ticket-count" class="badge badge_messages">1</span> <i class="ico ico-messages ico-messages-incoming"></i></a>
+                    </li>
+                    <li class="account__item ">
+                        <a class="account__link account__link_preference" href="#">
+                            <i class="ico ico-preference"></i>
+                        </a>
+                    </li>
+                    <li class="account__item">
+                        <a class="account__link account__link_logout" href="#">
+                            <i class="ico ico-logout"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="container carousel-box">
+    <div class="row-fluid">
+        <div class="span12 carousel-holder clearfix">
+            <div class="slider" id="slider">
+                <div class="carousel-frame">
+                    <div class="list_carousel responsive">
+                        <ul id="foo">
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <a class="prev" href="#">назад</a>
+                        <a class="next" href="#">вперед</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container main-cnt">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="cnt-box cnt-box_dark">
+                <div class="cnt-head">
+                    <i class="ico ico-referals-black"></i>
+                    <h2 class="cnt-ttl lead">Рефералы</h2>
+                </div>
+                <div class="cnt-box-inner cnt-box-inner_wide">
+                    <div class="row-fluid">
+                        <div class="span7">
+                            <form>
+                                <strong>Ссылка для привлечения рефералов:</strong>
+                                    <input class="span12 b-input" id="disabledInput" type="text" value="http://dash.overoffers.ru/register/affiliate/?ref=1584" placeholder="" readonly>
+                                    <hr>
+                                    <strong>Комиссия: </strong> 10.00%
+                                    <hr>
+                                    <strong>Привлечено рефералов: </strong> 0
+                                    <hr>
+                                    <a class="btn btn-success-light btn-large" href="#">Показать статистику</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/DT_bootstrap.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>OverOffers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+
+    <link href="css/select2.css" rel="stylesheet" media="screen">
+    <link href="css/datepicker.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <!--[if lt IE 9]><link rel="stylesheet" href="css/ie.css"><![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="navbar-frame"><a class="brand" href="#">overoffers</a><a class="view-more" href="#"></a></div>
+            <a data-target=".account-collapse" data-toggle="collapse" class="btn btn-navbar pull-right btn-account">
+                <span class="ico ico-account"></span>
+            </a>
+            <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar pull-right">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <nav class="nav-collapse collapse">
+                <ul class="nav main-nav">
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-start"></i><span>Стартовая</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-offers"></i><span>Офферы</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-stats"></i><span>Статистика</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-mylinks"></i><span>Мои ссылки</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-referals"></i><span>Рефералы</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-finance"></i><span>Финансы</span></a><em class="hover-mask"></em></li>
+                    <li><a href="#" class="main-nav__link"><i class="ico ico-tickets"></i><span>Тикеты</span></a><em class="hover-mask"></em></li>
+                </ul>
+            </nav>
+            <nav class="account-collapse collapse pull-right">
+                <a class="btn-top" href="#">Наверх</a>
+                <ul class="nav  account">
+                    <li class="account__item">
+                        <a class="account__link account__link_incoming" href="#"><span id="ticket-count" class="badge badge_messages">1</span> <i class="ico ico-messages ico-messages-incoming"></i></a>
+                    </li>
+                    <li class="account__item ">
+                        <a class="account__link account__link_preference" href="#">
+                            <i class="ico ico-preference"></i>
+                        </a>
+                    </li>
+                    <li class="account__item">
+                        <a class="account__link account__link_logout" href="#">
+                            <i class="ico ico-logout"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="container carousel-box">
+    <div class="row-fluid">
+        <div class="span12 carousel-holder clearfix">
+            <div class="slider" id="slider">
+                <div class="carousel-frame">
+                    <div class="list_carousel responsive">
+                        <ul id="foo">
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                            <li>
+                                <img src="img/img01.jpg" alt=""/>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <a class="prev" href="#">назад</a>
+                        <a class="next" href="#">вперед</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container main-cnt">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="cnt-box cnt-box_dark">
+                <div class="cnt-head">
+                    <i class="ico ico-link"></i>
+                    <h2 class="cnt-ttl lead">Мои ссылки</h2>
+                </div>
+                <div class="cnt-box-inner">
+                    <ul class="products-list nav-list">
+                        <li class="product">
+                            <div class="heading clearfix">
+                                <ul class="tools pull-right">
+                                    <li><a class="opener" data-placement="left" rel="tooltip" href="#" data-original-title="развернуть ссылки"><i class="ico ico-open"></i></a></li>
+                                    <li><a class="btn-del" data-placement="top" rel="tooltip" href="#" data-original-title="удалить"><i class="ico ico-del"></i></a></li>
+                                </ul>
+                                <span class="num">1.</span>
+                                <h3>OfferProgrammName</h3>
+                            </div>
+                            <div class="product-content clearfix well">
+                                <div class="span1">
+                                    <div class="photo">
+                                        <img src="img/img01.jpg" alt=""/>
+                                    </div>
+                                </div>
+                                <div class="span4 option-first">
+                                    <div class="control-group clearfix">
+                                        <select class="span12 choice-select" >
+                                            <option value="Op1">Option01</option>
+                                            <option value="Op2">Option02</option>
+                                            <option value="Op3">Option03</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="span7">
+                                    <div class="form-text">
+                                       <ul class="tools">
+                                           <li><a class="add" data-placement="top" rel="tooltip" href="#" data-original-title="добавить"><i class="ico ico-add"></i></a></li>
+                                           <li>
+                                               <a class="short-link" data-placement="top" rel="tooltip" href="#" data-original-title="короткая ссылка"><i class="ico ico-short-link"></i></a></li>
+                                           <li><a class="zoom" data-placement="top" rel="tooltip" href="#" data-original-title="предпросмотр"><i class="ico ico-zoom"></i></a></li>
+                                       </ul>
+                                       <input class="span12" id="disabledInput" type="text" value="http://demo.go2jump.org/aff_c?offer_id=1408&amp;aff_id=1584" placeholder="Disabled input here..." disabled>
+                                    </div>
+                                    <ul class="listing clearfix">
+                                       <li><a href="#" class="add-link">добавить SubID</a> </li>
+                                       <li><a href="#">subname1</a></li>
+                                       <li><a href="#">subname2</a></li>
+                                       <li><a href="#">subname3</a></li>
+                                       <li><a href="#">subname4</a></li>
+                                       <li><a href="#">subname5</a></li>
+                                       <li><a href="#" class="more">...</a></li>
+                                    </ul>
+
+                                    <div class="add-form">
+                                        <input class="input-medium" placeholder="Добавить SubID..." type="text" />
+                                        <a href="#" class="btn btn-success btn-success-light">Ok</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="product">
+                            <div class="heading clearfix">
+                                <ul class="tools pull-right">
+                                    <li><a class="opener" data-placement="left" rel="tooltip" href="#" data-original-title="развернуть ссылки" > <i class="ico ico-open"></i></a></li>
+                                    <li><a class="btn-del" data-placement="top" rel="tooltip" href="#" data-original-title="удалить"><i class="ico ico-del"></i></a></li>
+                                </ul>
+                                <span class="num">2.</span>
+                                <h3>OfferProgrammName</h3>
+                            </div>
+                            <div class="product-content clearfix well">
+                                <div class="span1">
+                                   <div class="photo">
+                                        <img src="img/img01.jpg" alt=""/>
+                                   </div>
+                                </div>
+                                <div class="span4">
+                                    <div class="control-group">
+                                        <select class="span12 choice-select" >
+                                            <option value="Op1">Option01</option>
+                                            <option value="Op2">Option02</option>
+                                            <option value="Op3">Option03</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="span7">
+                                    <div class="form-text">
+                                        <ul class="tools">
+                                            <li><a class="add" data-placement="top" rel="tooltip" href="#" data-original-title="добавить"><i class="ico ico-add"></i></a></li>
+                                            <li>
+                                                <a class="short-link" data-placement="top" rel="tooltip" href="#" data-original-title="короткая ссылка"><i class="ico ico-short-link"></i></a></li>
+                                            <li><a class="zoom" data-placement="top" rel="tooltip" href="#" data-original-title="предпросмотр"><i class="ico ico-zoom"></i></a></li>
+                                        </ul>
+                                        <input class="span12" id="disabledInput-2" type="text" value="http://demo.go2jump.org/aff_c?offer_id=1408&amp;aff_id=1584" placeholder="Disabled input here..." disabled>
+                                    </div>
+                                    <ul class="listing clearfix">
+                                        <li><a href="#" class="add-link">добавить SubID</a> </li>
+                                        <li><a href="#">subname1</a></li>
+                                        <li><a href="#">subname2</a></li>
+                                        <li><a href="#">subname3</a></li>
+                                        <li><a href="#">subname4</a></li>
+                                        <li><a href="#">subname5</a></li>
+                                        <li><a href="#" class="more">...</a></li>
+                                    </ul>
+
+                                    <div class="add-form">
+                                        <input class="input-medium" placeholder="Добавить SubID..." type="text" />
+                                        <a href="#" class="btn btn-success btn-success-light">Ok</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="divider"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/DT_bootstrap.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
